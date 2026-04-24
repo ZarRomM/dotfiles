@@ -1,0 +1,34 @@
+# =============================================================================
+# 1. IMPORTACIÓN DE TEMA
+# Esta línea DEBE ser la primera. Cambia el nombre del archivo para alternar temas.
+# =============================================================================
+import = [
+    "~/.config/alacritty/themes/base2tone-desert.toml"
+]
+
+# =============================================================================
+# 2. CONFIGURACIÓN DE LA VENTANA
+# =============================================================================
+[window]
+# Dimensiones iniciales (columnas y líneas)
+dimensions = { columns = 110, lines = 40 }
+padding = { x = 10, y = 10 }
+dynamic_title = true
+opacity = 0.85
+
+# Si quieres que la ventana sea más grande al abrir, quita el '#' de abajo:
+# dimensions = { columns = 110, lines = 35 }
+
+# =============================================================================
+# 3. CONFIGURACIÓN DE FUENTE (NERD FONT)
+# =============================================================================
+[font]
+size = 12.0
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
